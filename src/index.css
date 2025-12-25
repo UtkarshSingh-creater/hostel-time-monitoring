@@ -275,3 +275,83 @@ input::placeholder {
 .action-row button {
   flex: 1;
 }
+/* Scan Page */
+.scan-page {
+  max-width: 380px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.scan-title {
+  margin-bottom: 10px;
+}
+
+/* Camera container */
+.camera-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Hide default html5-qrcode UI */
+#qr-camera video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#qr-camera select,
+#qr-camera button {
+  display: none !important;
+}
+
+/* Overlay */
+.scanner-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.corner {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px solid white;
+}
+
+.tl {
+  top: 15px;
+  left: 15px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.tr {
+  top: 15px;
+  right: 15px;
+  border-left: none;
+  border-bottom: none;
+}
+
+.bl {
+  bottom: 15px;
+  left: 15px;
+  border-right: none;
+  border-top: none;
+}
+
+.br {
+  bottom: 15px;
+  right: 15px;
+  border-left: none;
+  border-top: none;
+}
+
+.scan-hint {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
