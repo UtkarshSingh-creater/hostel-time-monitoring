@@ -1,0 +1,277 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.container {
+  max-width: 380px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input, button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.logout {
+  background: #dc2626;
+}
+
+.card {
+  background: #eef2ff;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.link {
+  color: #2563eb;
+  cursor: pointer;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.status-card {
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background: #dcfce7;
+}
+
+.primary-btn {
+  background: #16a34a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.log {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 14px;
+}
+
+.entry {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.exit {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  background: #dc2626;
+}
+.subtitle {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.primary-btn {
+  background: #16a34a;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input {
+  font-size: 14px;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+.scan-container {
+  text-align: center;
+}
+
+.hint {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.success-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.checkmark {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #16a34a;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.success-sub {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.student-info {
+  display: flex;
+  align-items: center;
+  background: #f1f5f9;
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.details {
+  text-align: left;
+  font-size: 14px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .student-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .avatar {
+    margin-bottom: 8px;
+    margin-right: 0;
+  }
+
+  .details {
+    text-align: center;
+  }
+}
+/* App shell */
+.app-bg {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #4f7cac, #6dd5c6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  width: 360px;
+  background: white;
+  border-radius: 22px;
+  padding: 20px;
+}
+
+
+.status-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: #e6f7f5;
+  margin: 15px auto;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.status-label {
+  font-weight: bold;
+  color: #16a34a;
+}
+
+/* Cards */
+.card-grid {
+  display: grid;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.info-card {
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 14px;
+}
+
+/* Profile */
+.profile-card {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-card img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+/* Buttons */
+.secondary-btn {
+  background: #e5e7eb;
+  color: #111827;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+}
+
+.logout-btn {
+  background: #dc2626;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+}
+
+.action-row {
+  display: flex;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.action-row button {
+  flex: 1;
+}
